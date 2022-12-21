@@ -1,0 +1,37 @@
+<view class="navigation" hover-class="none" hover-stop-propagation="false">
+    <view class="item">
+        <view class="" hover-class="none" hover-stop-propagation="false">
+            <image src="/static/icons/每日推荐.svg" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">
+            </image>
+        </view>
+        <text>每日推荐</text>
+    </view>
+    <view class="item">
+         <view class="" hover-class="none" hover-stop-propagation="false">
+            <image src="/static/icons/歌单.svg" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">
+            </image>
+        </view>
+        <text>歌单</text>
+    </view>
+    <view class="item">
+         <view class="" hover-class="none" hover-stop-propagation="false">
+            <image src="/static/icons/排行榜.svg" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">
+            </image>
+        </view>
+        <text>排行榜</text>
+    </view>
+    <view class="item">
+         <view class="" hover-class="none" hover-stop-propagation="false">
+            <image src="/static/icons/电台.svg" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">
+            </image>
+        </view>
+        <text>电台</text>
+    </view>
+    <view class="item">
+         <view class="" hover-class="none" hover-stop-propagation="false">
+            <image src="/static/icons/直播.svg" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">
+            </image>
+        </view>
+        <text>直播</text>
+    </view>
+</view>

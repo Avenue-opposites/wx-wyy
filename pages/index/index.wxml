@@ -1,0 +1,5 @@
+<view>
+  <carousel banners="{{banners}}"></carousel>
+  <navigation></navigation>
+  <recommend-songs></recommend-songs>
+</view>

@@ -1,0 +1,8 @@
+<!--components/carousel.wxml-->
+<view>
+  <swiper class="carousel">
+    <swiper-item wx:for="{{banners}}" wx:for-item="banner" wx:key="{{banner.bannerId}}" class="item">
+      <image class="img" src="{{banner.pic}}" mode="aspectFit" lazy-load="false" binderror="" bindload=""></image>
+    </swiper-item>
+  </swiper>
+</view>

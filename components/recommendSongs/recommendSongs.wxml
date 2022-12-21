@@ -1,0 +1,34 @@
+<!-- components/recommendSongs.wxml -->
+<view class="recommendSongs" hover-class="none" hover-stop-propagation="false">
+    <view class="title" hover-class="none" hover-stop-propagation="false">
+        <text selectable="false" space="false" decode="false">为你精心推荐</text>
+        <button type="">
+            <text selectable="false" space="false" decode="false">查看更多</text>
+            <!-- <image src="/static/icons/更多.svg" mode="aspectFit|aspectFill" lazy-load="false" binderror="" bindload=""></image> -->
+        </button>
+    </view>
+    <view class="songs" hover-class="none" hover-stop-propagation="false">
+        <scroll-view scroll-x enable-flex>
+            <view class="song">
+                <image src="/static/images/甘雨.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+                <text selectable="false" space="false" decode="false">华语新歌华语新歌华语新歌华语新歌华语新歌华语新歌</text>
+            </view>
+            <view class="song">
+                <image src="/static/images/甘雨.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+                <text selectable="false" space="false" decode="false">华语新歌华语新歌华语新歌华语新歌华语新歌华语新歌</text>
+            </view>
+            <view class="song">
+                <image src="/static/images/甘雨.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+                <text selectable="false" space="false" decode="false">华语新歌华语新歌华语新歌华语新歌华语新歌华语新歌</text>
+            </view>
+            <view class="song">
+                <image src="/static/images/甘雨.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+                <text selectable="false" space="false" decode="false">华语新歌华语新歌华语新歌华语新歌华语新歌华语新歌</text>
+            </view>
+            <view class="song">
+                <image src="/static/images/甘雨.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+                <text selectable="false" space="false" decode="false">华语新歌华语新歌华语新歌华语新歌华语新歌华语新歌</text>
+            </view>
+        </scroll-view>
+    </view>
+</view>
